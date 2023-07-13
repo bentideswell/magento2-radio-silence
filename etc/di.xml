@@ -10,4 +10,10 @@
     <type name="MageWorx\Info\Helper\Data">
         <plugin name="fishpig-radio-silence" type="FishPig\RadioSilence\Plugin\MageWorx\Info\Helper\DataPlugin"/>
     </type>
+    <type name="MageMe\Core\Helper\LicenseHelper">
+        <plugin name="fishpig-radio-silence" type="FishPig\RadioSilence\Plugin\MageMe\Core\Helper\LicenseHelperPlugin"/>
+    </type>
+    <type name="Xtento\XtCore\Model\Feed">
+        <plugin name="fishpig-radio-silence" type="FishPig\RadioSilence\Plugin\CheckUpdatePlugin"/>
+    </type>
 </config>
